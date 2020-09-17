@@ -1,0 +1,41 @@
+th,tr,td{
+    border: 1px solid alpha;
+    border-collapse: collapse;
+    padding: 40px;
+    
+}
+.box {
+  
+  display: flex;
+ margin-left: 380px;
+ }
+ .a{
+    background-color: rgb(51, 103, 214);
+    color: var(--primary-text-color);
+
+     border:1px solid alpha;
+     border-radius: 5px;
+     height: 70px;
+     width: 80px;
+     text-align: center;
+  
+ }
+
+ .a:hover{
+     color: brown;
+     background-color: white;
+ }
+ .b{
+    background-color: rgb(198, 218, 252);;
+    color: var(--primary-text-color);
+
+     border:1px solid alpha;
+     border-radius: 5px;
+     height: 70px;
+     width: 80px;
+     text-align: center;
+  
+ }
+ p{
+     font-size: 30px;
+ }

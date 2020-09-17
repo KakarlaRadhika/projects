@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive sheet</title>
+        <link
+	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+	rel="stylesheet">
+        <link href="project.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+        <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  ></script>
+    </head>
+    <body>
+     <header>
+         <div class ="container">
+             <div class="row">
+                 <a href="#"><img src="log.png"  class= "logo"></a>
+                 <div class="log">CONNECT </div>
+                 <nav>
+                 <ul>
+                     <li><a href="">Home</a></li>
+                     <li><a href="">Our Services</a></li>
+                     <li><a href="">Careers</a></li>
+                     <li><a href="">Contact Us</a></li>
+                    
+                 </ul>
+                 </nav>
+             </div>
+         </div>
+     </header>  
+      
+      <div class="info row">
+          
+       <div class=" clo-lg text">
+     
+         <div class="text1">Innovation for Excellence</div>
+        <div class="text2"> one click for all your search</div>
+         <div class ="btn btn-primary">Read More</div>
+          </div>
+          
+      </div>
+      <br>
+      <br>
+       
+       <div class="row">
+           <div class=" col-lg-6 loginform">
+				<h2 id="x">LOGIN FORM</h2>
+				<form onsubmit="return validate1()" action="login">
+				<b>  &nbsp &nbsp &nbsp EMAIL : </b><input type="text" name="em1" id="name" autofocus>
+				<i class="fa fa-user-o" aria-hidden="true"></i><br>
+				<br> <b>PASSWORD:</b><input type="password" name="pwd1"
+					id="pwd1">&nbsp<i class="fa fa-lock" aria-hidden="true"></i><br>
+               <br> <input class="btn btn-success" type="submit" value="LOGIN">
+               </form>
+			</div>
+       
+           <div class="col-lg-6 loginform">
+				<div>
+					
+				</div>
+				<h3 style="transform: translateX(-150px)">REGISTRAION</h3>
+				<form onsubmit="return validate2()" action="Register">
+				<table>
+
+
+					<tr>
+						<td>FIRSTNAME:</td>
+						<td><input type="text" name="fn" id="firstname" autofocus></td>
+						<td><label id="disp" style="color: red; visibility: hidden;">firstname
+								is too short</label></td>
+
+
+					</tr>
+					<tr>
+						<td>LASTNAME:</td>
+						<td><input type="text" name="ln" id="lastname"></td>
+						<td><label id="disp1" style="color: red; visibility: hidden;">lastname
+								is too short</label></td>
+
+					</tr>
+
+					<tr>
+						<td>EMAIL:</td>
+						<td><input type="email" name="em" id="email"></td>
+						<td><label id="disp3" style="color: red; visibility: hidden;">email
+								contains @ and dot</label></td>
+					<tr>
+						<td>PASSWORD:</td>
+						<td><input type="password" name="pass" id="pwd2"></td>
+						<td><label id="disp4" style="color: red; visibility: hidden;">password
+								should 6 characters</label></td>
+
+
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><input class="btn btn-danger" type="submit" value=" Register"></td>
+						<td></td>
+					</tr>
+				</table>
+				<br>
+
+               </form>
+			
+     
+               
+               
+			</div>
+       
+           
+       </div>
+       
+      
+        
+    </body>
+    
+<script src="project.js"></script>
+</html>

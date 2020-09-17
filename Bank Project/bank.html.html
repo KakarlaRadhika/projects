@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="login.css" rel="stylesheet" type="text/css"/>
+
+<head>
+     <title>Document</title>
+     <style>
+     body{
+        border: 1px solid alpha;
+         background-image:url(bank.jpeg);
+         background-repeat: no-repeat;
+         background-size: 100%;
+        
+     }
+    
+     #with{
+         background-color:red;
+     }
+     #a{
+         color:olive;
+     }
+     #y,#l{
+         border:1px solid black;
+         height: 20px;
+         width: 200px;
+     }
+     #c{
+         float: left;
+         color:magenta;
+     }
+     #dep,#withd{
+         float: right; 
+     }
+     #disc{
+        border: 1px solid black;
+        height:20px;
+         width:70px;
+         float: right;
+         margin-right: 190px;
+         background-color: green;
+       
+     }
+     #wis{
+        border: 1px solid black;;
+        height:20px;
+         width:70px;
+         margin-left: 200px;
+      
+       background-color:red;
+         float: left;
+     }
+     #w{
+         border: 1px solid black;
+         height: 100px;
+         width: 300px;
+         
+     }
+     i{
+         color:green;
+     }
+     #b{
+         color:orangered;
+     }
+    b{
+        color:maroon;
+    }
+    form{
+        border: 1px solid black;
+        height: 500px;
+        
+    }
+     </style>
+    
+</head>
+<body><form>
+    <center>
+        <h3 style="color:orangered">WELCOME TO ABC</h3>
+        <h3 style="color:indianred">Available Bank Balance <div id="z"> %month </div></h3>
+      <div id="bal"> +0000.00</div><br><br>
+     
+
+      <div id="y"><b id="c">deposit</b>    <b id="dep">+0000.00</b></div><br>
+         
+      <div id="l"><b id="c">withdraw</b>    <b id="withd">+0000.00</b></div>
+         </h3>
+      </div> <br>
+  <b>ACC_NO:<span id="f">3456346875</span></b><br><br>
+   <b>IFSC:<span id="g">SBIB5774577</span></b><br><br>
+     <b> ACC_HOLDER NAME:<span id="h">ABC</span></b><br><br>
+
+
+      
+    
+    <select id="drop">
+        <option >deposit</option>
+        <option >withdraw</option>
+    </select>
+    <input type="text" name="description" placeholder="description" id="des" required>
+    <input type="text" name="amount" placeholder="amount" id="amt" required>
+    <input type="button" id="btn" value="click">
+    
+
+            <i class="fa fa-check" aria-hidden="true" id="icon"></i><br><br>
+
+            <div id="wis">withdraw</div>
+           <div id="disc">deposit</div>
+    
+    
+    
+
+
+    </center>
+    </form>
+   
+</body>
+
+<script src="p.js"></script>
+</html>

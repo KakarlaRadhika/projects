@@ -1,0 +1,46 @@
+
+<head>
+    <style>
+    tr{
+        border:1px solid black;
+    }
+    td{
+        border:1px solid alpha;
+        border-collapse: collapse;
+        padding: 7px;
+    }
+
+   
+    </style>
+</head>
+
+<table>
+<tr align="center">
+    <td>AWB NUMBER</td>
+    <td>TRANSPORTER</td>
+    <td>SOURCE</td>
+    
+    <td> DESTINATION</td>
+    <td>  BRAND</td>
+    <td>START DATE</td>
+    <td>ETD</td>
+    <td>STATUS</td>
+</tr>
+
+
+<tr *ngFor="let c of data" align="center">
+    <td>{{c.AWBNUMBER}}</td>
+    <td>{{c.TRANSPORTER}}</td>
+    <td>{{c. SOURCE}}</td>
+    <td>{{c.DESTINATION}}</td>
+
+    <td>{{c.BRAND}}</td>
+    <td>{{c.STARTDATE}}</td>
+    <td>{{c.ETD}}</td>
+
+    <td [routerLink]="['/datadetails',c.AWBNUMBER]" (click)="getDetails()" style="color:limegreen;"><a>delivered</a></td>
+
+</tr>
+</table>
+<router-outlet></router-outlet>
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <script>
+     function validateData(){
+       var username=document.getElementById("name")
+       var password=document.getElementById('pwd')
+       if(username.value=='shilpa' && password.value=='silpa@123'){
+        
+         return true
+       }
+       else{
+         alert('sorry try again!!!!')
+         return false
+       }
+     }
+     
+     </script>
+     <style>
+     body{
+        
+         
+         background-image:url(re.jpeg);
+         background-repeat: no-repeat;
+         background-size: 100%;
+     }
+     #btn{
+       background-color:palegreen;
+       margin-right: 52px;
+       color:green;
+     }
+     #btn1{
+       background-color:palegreen;
+       margin-left: 70px;
+       color:green;
+     
+     }
+     
+     #name,#pwd,#btn,#btn1{
+       border-radius: 20px;
+     }
+     form{
+      border: 1px solid alpha;
+            
+       margin-top:100px;
+     }
+   #x{
+     color:crimson;
+   }
+     </style>
+   
+</head>
+<body>
+  <form onsubmit="return validateData()" action="p.html"><center>
+    <h2 id="x">LOGIN FORM</h2>
+      <b style="color:chocolate">USERNAME:</b><input type="text" name="input1" id="name" autofocus ><br><br>
+      <b style="color:chocolate">PASSWORD:</b><input type="password" name="input5" id="pwd"><br><br>
+  <input type="submit" value="LOGIN" id="btn" onclick="validateData()">
+  <a href="rf.html"><input type="button" value="REGISTER" id="btn1" onclick="validate()"></a>
+   
+  </center> </form>
+</body>
+</html>

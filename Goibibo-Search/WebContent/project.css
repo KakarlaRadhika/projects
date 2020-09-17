@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: :0px;
+    overflow-x: hidden;
+}
+
+
+header
+{
+    display: flex;
+
+    align-items:center;
+    margin-top:20px
+    
+}
+
+
+.logo{
+    height: 65px;
+    width:95px;
+}
+.log{
+    margin-top: 15px;
+        font-weight: 400;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Tomorrow', sans-serif;
+}
+.loginform{
+     margin-top: 15px;
+    
+        font-weight: 200;
+    color: white;
+    letter-spacing: 3px;
+    text-align-last: center;
+    font-family: 'Tomorrow', sans-serif;
+    
+}
+ul li a{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: sans-serif;
+    display: inline-block;
+    
+   padding-right: 30px;
+    margin-right: 0px;
+   
+        
+}
+
+input{
+    margin-top: 0px;
+    height:20px;
+}
+nav{
+    margin-top: 10px;
+    margin-left: auto;
+    align-items: center;
+     display: inline-block;
+   
+}
+
+.laptop{
+    height: 300px;
+    width:300px;
+}
+
+
+.text1{
+    color: white;
+    margin-left:12%;
+    margin-top: 130px;
+    font-size: 35px;
+    font-weight: 500
+}
+.text2{
+    color: red;
+    font-size: 42px
+}
+.row{
+    justify-content: center;
+}
+.btn{
+    margin-left:30%;
+    height: 40px;
+}
+.login{
+    height: 200px
+}
+    
+
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    animation : slide 10s infinite;
+}
+
+ @keyframes slide{
+ 0%{
+ 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('music.jpg');
+ }
+ 33%{
+ 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('music.jpg');
+ }
+ 33.1%{
+ 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('plane.jpg');
+ }
+ 66%{
+ 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('plane.jpg');
+ }
+ 66.1%{
+ 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('Movie%20HD%20Wallpapers%20HD%201080p%20Full%20HD%20Movie%20Wallpapers%201920x1080.jpg');
+ }
+ 100%{
+ 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('Movie%20HD%20Wallpapers%20HD%201080p%20Full%20HD%20Movie%20Wallpapers%201920x1080.jpg');
+ }
+
+ }
+ 

@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.header{
+    text-align: center;
+    font-size:50px;
+    font-weight:300;
+    margin-top:30px;
+    font-family:'Solway', serif;
+    
+}
+body{
+    background-image: url(guitar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+   margin-top: 20%;
+       margin-left:20%
+    
+}
+#txt{
+    width:50%;
+    margin-right: 10px
+        
+        
+}
+#op{
+    border-radius: 10px 
+}
+
+.btn{
+    margin-left:20px;
+    
+    
+}

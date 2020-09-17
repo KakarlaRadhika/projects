@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+    table{
+      margin-left: 170px;
+    }
+    body{
+      background-image: url(p.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+
+    }
+    #btn,#firstname,#lastname,#pwd,#email,#num,#confirmpwd{
+      border-radius: 20px;
+    }
+    #btn{
+      background-color:magenta;
+      color:palegreen;
+     
+    }
+    </style>
+    
+</head>
+<body><center>
+  <form onsubmit="return validate()" action="ff.html">
+  <h3 style="color:magenta">REGISTRAION FORM</h3>
+    <table>
+        <tr>
+   <td style="color:greenyellow"> FIRSTNAME:</td>
+   <td><input type="text" name="input1" id="firstname" autofocus></td>
+   <td><label id="disp" style="color: red;visibility:hidden;">firstname should be  more than 5 letters</label></td>
+   
+  </tr>
+   <tr>
+ <td style="color:greenyellow"> LASTNAME:</td>  
+ <td><input type="text" name="input2" id="lastname" ></td>
+ <td><label id="disp1" style="color: red;visibility:hidden;">lastname should be more than 5 letters</label></td>
+ 
+</tr>
+ <tr>
+  <td style="color:greenyellow">  MOBILE NO:</td>
+  <td><input type="number" name="input3" id="num" ></td>
+  <td><label id="disp2" style="color: red;visibility:hidden;">mobile number must and should 10 numbers</label></td>
+ 
+</tr>
+<tr>
+ <td style="color:greenyellow"> EMAIL:</td>
+    <td><input type="email" name="input4" id="email" ></td>
+    <td><label id="disp3" style="color: red;visibility:hidden;">email contains @ and dot</label></td>
+ 
+  </tr>
+    <tr>
+  <td style="color:greenyellow"> PASSWORD:</td> 
+  <td><input type="password" name="input5" id="pwd" ></td>
+  <td><label id="disp4" style="color: red;visibility:hidden;">password should 6 characters</label></td>
+ 
+</tr>
+  <tr>
+  <td style="color: greenyellow">  CONFIRM PASSWORD:</td>
+  <td><input type="password" name="input6" id="confirmpwd" ></td>
+  
+  
+</tr>
+  <tr>
+      <td></td>
+ <td><input type="submit" value="SUBMIT" id="btn" onclick="validate()"></td>
+</tr>
+</table>
+</center>
+</form>
+</body>
+<script src="rf.js"></script>
+</html>
